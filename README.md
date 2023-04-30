@@ -22,7 +22,7 @@ git checkout main
 git merge development
 ## 10. Перевірте статус, переконайтеся, що все актуально.
 git status
-## 11. Закомітьте зміни.
-git add README.md
-git commit -m "Merge development branch"
+## 11. Відправте зміни з локального на віддалений репозиторій
+git remote add origin <GitHub repo URL>
+git push -u origin main
 
